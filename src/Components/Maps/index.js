@@ -39,7 +39,7 @@ import { withMask } from 'use-mask-input';
   const locationDispacth = useSelector((state)=> state.itenscarts.location)
   function getPosition(){
     console.log('*************************************************aqui')
-    Geocode.setApiKey("AIzaSyCl8exTeNntZjoCAx2CaYyOHYpGP1gkIP0");
+    Geocode.setApiKey("");
     Geocode.setLanguage("pt");
     Geocode.setRegion("br");
     Geocode.setLocationType("ROOFTOP");
